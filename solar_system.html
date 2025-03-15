@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Solar System</title>
+<style>
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: sans-serif;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#solar-system {
+  position: relative;
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+}
+
+.planet {
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+#sun {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  background-color: yellow;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+}
+
+#planet-info {
+  margin-top: 20px;
+  text-align: center;
+  display: none; /* Hidden by default */
+}
+
+#planet-info h2 {
+  margin-bottom: 10px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="solar-system">
+  <div id="sun">Sun</div>
+</div>
+
+<div id="planet-info">
+  <h2>Planet Name</h2>
+  <p>Planet Information goes here.</p>
+</div>
+
+<script>
+// JavaScript will be added here
+</script>
+
+</body>
+</html>
